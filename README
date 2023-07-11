@@ -1,0 +1,3 @@
+Here are example input files for the results presented in the paper 'Resetting Metadynamics'.
+They include representative LAMMPS, GROMACS and plumed input files for two model systems and a molecular system.
+In addition, examples for the implementation of resetting in Python are given for both LAMMPS and GROMACS simulations.
