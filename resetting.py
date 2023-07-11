@@ -9,7 +9,7 @@ np.random.seed(seed1)
 
 count = 0
 time = 0
-Passed = True
+Passed = False
 resettingRate = 1/500000
 
 while not Passed:
@@ -55,7 +55,7 @@ np.random.seed(seed)
 
 count = 0
 time = 0
-Passed = True
+Passed = False
 resettingRate = 1/500000
 mass = 40
 std = np.sqrt((8.31445e-7 * 300 / mass))
@@ -92,7 +92,7 @@ while not Passed:
     with open("PASS","r") as file:
         lines = file.readlines()
     if len(lines)!=0:
-        time += float(lines[3].split()[0])
+        time += float(lines[1].split()[0])
         Passed = True
     else:
         time += nextTime/1000
