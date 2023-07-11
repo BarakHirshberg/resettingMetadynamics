@@ -1,0 +1,11 @@
+message: "Here are example input files for the paper 'resettingMetadynamics'."
+authors:
+- family-names: "Blumer"
+  given-names: "Ofir"
+- family-names: "Reuveni"
+  given-names: "Shlomi"
+- family-names: "Hirshberg"
+  given-names: "Barak"
+title: "Input files for 'resettingMetadynamics'"
+date-released: 2023
+url: "https://github.com/OfirBlumer/resettingMetadynamics"
