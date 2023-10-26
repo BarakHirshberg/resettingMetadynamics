@@ -1,14 +1,14 @@
 title       = Protein-ligand complex MD simulation
 ; Run parameters
 integrator  = md        ; leap-frog integrator
-nsteps      = 500000000    ; 2 * 500000 = 1000 ps (1 ns)
+nsteps      = 5000000000    ; 2 * 500000 = 1000 ps (1 ns)
 dt          = 0.002     ; 2 fs
 ; Output control
-nstxout             = 5000         ; suppress .trr output
-nstvout             = 0         ; suppress .trr output
-nstenergy           = 500       ; save energies every 1.0 ps
-nstlog              = 50000     ; update log file every 100.0 ps
-nstxout-compressed  = 500       ; write .xtc trajectory every 1.0 ps
+;nstxout             = 5000         ; suppress .trr output
+;nstvout             = 0         ; suppress .trr output
+;nstenergy           = 500       ; save energies every 1.0 ps
+;nstlog              = 50000     ; update log file every 100.0 ps
+;nstxout-compressed  = 500       ; write .xtc trajectory every 1.0 ps
 compressed-x-grps   = Protein
 ;energygrps          = Protein
 ; Bond parameters
@@ -45,4 +45,3 @@ pbc         = xyz       ; 3-D PBC
 DispCorr    = EnerPres  ; account for cut-off vdW scheme
 ; Velocity generation
 gen_vel     = yes        ; assign velocities from Maxwell distribution
-gen_seed    = -1
