@@ -1,4 +1,4 @@
-message: "Here are example input files for the paper 'resettingMetadynamics'."
+message: "Here are example input files and raw data for the paper `Combining stochastic resetting with Metadynamics to speed-up molecular dynamics simulations'."
 authors:
 - family-names: "Blumer"
   given-names: "Ofir"
@@ -6,6 +6,6 @@ authors:
   given-names: "Shlomi"
 - family-names: "Hirshberg"
   given-names: "Barak"
-title: "Input files for 'resettingMetadynamics'"
+title: "Input files and raw data for `Combining stochastic resetting with Metadynamics to speed-up molecular dynamics simulations'"
 date-released: 2023
 url: "https://github.com/OfirBlumer/resettingMetadynamics"
